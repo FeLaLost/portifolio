@@ -71,5 +71,5 @@ Hosted on **GitHub Pages**. Since the repository is named `felipebsa.github.io`,
 Systems Development Student at ETEC Vasco Antonio Venchiarutti
 
 - GitHub: [github.com/FeLaLost](https://github.com/FeLaLost)
-- Email: [gabrielfernandesbarbarini@gmail.com](gabrielfernandesbarbarini@gmail.com)
+- Email: [gabrielfernandesbarbarini@gmail.com](mailto:gabrielfernandesbarbarini@gmail.com)
 - Instagram: [@ggabrielfernandes_](https://www.instagram.com/ggabrielfernandes_/)
