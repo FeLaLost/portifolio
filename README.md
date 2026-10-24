@@ -1,12 +1,10 @@
-# Felipe Barbosa | Personal Portfolio
+# Gabriel Fernandes Barbarini | Portfolio
 
 [**felipebsa.github.io**](https://felipebsa.github.io)
 
-My personal portfolio, built with plain HTML, CSS and JavaScript.
-
 ## About
 
-A single page with my background, tech stack, projects, study repositories, work experience, academic awards and contact info.
+A single page with my stacks, projects, study repositories and contact info.
 
 ## Features
 
@@ -69,9 +67,8 @@ Hosted on **GitHub Pages**. Since the repository is named `felipebsa.github.io`,
 
 ## Author
 
-**Felipe Barbosa Santos**, Jundiaí, SP
-Backend developer in training, Systems Development student at ETEC Vasco Antônio Venchiarutti
+**Gabriel Fernandes Barbarini**, Jundiaí, SP
+Systems Development Student at ETEC Vasco Antonio Venchiarutti
 
-- GitHub: [github.com/felipebsa](https://github.com/felipebsa)
-- LinkedIn: [felipebsa](https://linkedin.com/in/felipebsa)
-- Instagram: [@felipe__bsa](https://www.instagram.com/felipe__bsa/)
+- GitHub: [github.com/FeLaLost](https://github.com/FeLaLost)
+- Instagram: [@ggabrielfernandes_](https://www.instagram.com/ggabrielfernandes_/)
