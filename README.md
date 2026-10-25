@@ -1,10 +1,8 @@
 # Gabriel Fernandes Barbarini | Portfolio
 
-[**felipebsa.github.io**](https://felipebsa.github.io)
-
 ## About
 
-A single page with my stacks, projects, study repositories and contact info.
+A single page with my stacks, projects, repositories and contact.
 
 ## Features
 
@@ -27,39 +25,6 @@ A single page with my stacks, projects, study repositories and contact info.
 - CSS3
 - JavaScript
 - Google Fonts: 
-
-## Project Structure
-
-```
-portifolio/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── assets/
-    ├── hero-bg.jpg
-    ├── profile.jpg / profile.webp
-    ├── proj-nippon.jpg / .webp
-    ├── proj-loctis.jpg / .webp
-    ├── proj-cvvj.jpg / .webp
-    ├── proj-contractsys.jpg / .webp
-    ├── cursor.svg
-    ├── cursor-pointer.svg
-    ├── favicon.svg
-    ├── og-image.jpg
-    └── felipe-barbosa-curriculo.pdf
-```
-
-## Running locally
-
-Just open `index.html` in the browser. If you want the page served like it is on GitHub Pages:
-
-```bash
-python -m http.server 8000
-```
-
-Then go to `http://localhost:8000`.
 
 ## Deployment
 
