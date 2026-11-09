@@ -1,1 +1,404 @@
-.
+/* ================================
+   CONFIGURAÇÕES GERAIS
+================================ */
+
+:root {
+    --background: #000029;
+    --card: #1B2545;
+    --text: #FEFCEF;
+    --secondary: #D6B879;
+    --border: #303B5C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* ================================
+   NAVBAR
+================================ */
+
+.navbar {
+    width: 100%;
+    min-height: 75px;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.links-navbar {
+    display: flex;
+    gap: 35px;
+}
+
+.links-navbar a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.links-navbar a:hover {
+    color: var(--secondary);
+}
+
+/* Botão de tema */
+
+.mudar-tema {
+    background-color: transparent;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    padding: 9px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mudar-tema:hover {
+    background-color: var(--secondary);
+    color: var(--background);
+}
+
+/* ================================
+   ESTRUTURA DAS SEÇÕES
+================================ */
+
+section {
+    padding: 100px 12%;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: var(--text);
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: var(--secondary);
+    margin-top: 10px;
+}
+
+/* ================================
+   INÍCIO / HERO
+================================ */
+
+.hero-section {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-title {
+    font-size: clamp(38px, 6vw, 65px);
+    line-height: 1.2;
+    max-width: 850px;
+    margin-bottom: 15px;
+}
+
+.hero-text > p:first-of-type {
+    color: var(--secondary);
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.hero-subtitle {
+    color: #B8BED0;
+    font-size: 17px;
+}
+
+.hero-links {
+    display: flex;
+    gap: 18px;
+    margin-top: 35px;
+}
+
+.hero-links a {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-projeto {
+    background-color: var(--secondary);
+    color: var(--background);
+    border: 1px solid var(--secondary);
+}
+
+.hero-projeto:hover {
+    background-color: transparent;
+    color: var(--secondary);
+}
+
+.hero-contato {
+    color: var(--text);
+    border: 1px solid var(--border);
+}
+
+.hero-contato:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+/* ================================
+   SOBRE MIM
+================================ */
+
+.sobre-section {
+    background-color: var(--card);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.sobre-text {
+    max-width: 850px;
+    font-size: 17px;
+    color: #D0D3DF;
+    margin-bottom: 25px;
+}
+
+.sobre-text span {
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.sobre-section div {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--secondary);
+}
+
+/* ================================
+   STACKS
+================================ */
+
+.stacks-section h3 {
+    color: var(--secondary);
+    font-size: 20px;
+    margin: 30px 0 18px;
+}
+
+.linguagens-list,
+.ferramentas-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.linguagens-list li,
+.ferramentas-list li {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.linguagens-list li:hover,
+.ferramentas-list li:hover {
+    border-color: var(--secondary);
+    color: var(--secondary);
+    transform: translateY(-4px);
+}
+
+/* ================================
+   PROJETOS
+================================ */
+
+.projetos-section {
+    background-color: var(--card);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.projetos-intro {
+    color: #B8BED0;
+    margin-bottom: 35px;
+}
+
+.projeto1-card,
+.projeto2-card,
+.projeto3-card {
+    background-color: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+
+    padding: 30px;
+    margin-bottom: 22px;
+
+    transition: 0.3s;
+}
+
+.projeto1-card:hover,
+.projeto2-card:hover,
+.projeto3-card:hover {
+    border-color: var(--secondary);
+    transform: translateY(-5px);
+}
+
+.projeto1-card h3,
+.projeto2-card h3,
+.projeto3-card h3 {
+    color: var(--secondary);
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.projeto1-card p,
+.projeto2-card p,
+.projeto3-card p {
+    color: #D0D3DF;
+    margin-bottom: 20px;
+}
+
+.projeto1-card a,
+.projeto2-card a,
+.projeto3-card a {
+    display: inline-block;
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.projeto1-card a:hover,
+.projeto2-card a:hover,
+.projeto3-card a:hover {
+    border-bottom-color: var(--secondary);
+}
+
+/* ================================
+   CONTATO
+================================ */
+
+.contato-section div {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+
+    padding: 18px 22px;
+    margin-bottom: 15px;
+
+    max-width: 500px;
+    transition: 0.3s;
+}
+
+.contato-section div:hover {
+    border-color: var(--secondary);
+    transform: translateX(5px);
+}
+
+.contato-section a {
+    color: var(--text);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contato-section a:hover {
+    color: var(--secondary);
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+.footer {
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    color: #A8AEC1;
+    font-size: 14px;
+}
+
+/* ================================
+   RESPONSIVIDADE
+================================ */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px 5%;
+    }
+
+    .links-navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 22px;
+    }
+
+    .links-navbar a {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 75px 7%;
+    }
+
+    .hero-section {
+        min-height: 75vh;
+    }
+
+    .hero-title {
+        font-size: 38px;
+    }
+
+    .hero-text > p:first-of-type {
+        font-size: 20px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .hero-links {
+        flex-wrap: wrap;
+    }
+
+    .contato-section div {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-links a {
+        padding: 10px 20px;
+    }
+}
