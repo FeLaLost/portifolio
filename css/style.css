@@ -1,6 +1,3 @@
-/* ================================
-   CONFIGURAÇÕES GERAIS
-================================ */
 
 :root {
     --background: #000029;
@@ -23,10 +20,6 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
 }
-
-/* ================================
-   NAVBAR
-================================ */
 
 .navbar {
     width: 100%;
@@ -60,8 +53,6 @@ body {
     color: var(--secondary);
 }
 
-/* Botão de tema */
-
 .mudar-tema {
     background-color: transparent;
     color: var(--secondary);
@@ -76,10 +67,6 @@ body {
     background-color: var(--secondary);
     color: var(--background);
 }
-
-/* ================================
-   ESTRUTURA DAS SEÇÕES
-================================ */
 
 section {
     padding: 100px 12%;
@@ -99,10 +86,6 @@ section h2::after {
     background-color: var(--secondary);
     margin-top: 10px;
 }
-
-/* ================================
-   INÍCIO / HERO
-================================ */
 
 .hero-section {
     min-height: 85vh;
@@ -166,10 +149,6 @@ section h2::after {
     color: var(--secondary);
 }
 
-/* ================================
-   SOBRE MIM
-================================ */
-
 .sobre-section {
     background-color: var(--card);
     border-top: 1px solid var(--border);
@@ -195,10 +174,6 @@ section h2::after {
     border-radius: 6px;
     color: var(--secondary);
 }
-
-/* ================================
-   STACKS
-================================ */
 
 .stacks-section h3 {
     color: var(--secondary);
@@ -230,10 +205,6 @@ section h2::after {
     color: var(--secondary);
     transform: translateY(-4px);
 }
-
-/* ================================
-   PROJETOS
-================================ */
 
 .projetos-section {
     background-color: var(--card);
@@ -298,10 +269,6 @@ section h2::after {
     border-bottom-color: var(--secondary);
 }
 
-/* ================================
-   CONTATO
-================================ */
-
 .contato-section div {
     background-color: var(--card);
     border: 1px solid var(--border);
@@ -329,10 +296,6 @@ section h2::after {
     color: var(--secondary);
 }
 
-/* ================================
-   FOOTER
-================================ */
-
 .footer {
     padding: 25px;
     text-align: center;
@@ -340,10 +303,6 @@ section h2::after {
     color: #A8AEC1;
     font-size: 14px;
 }
-
-/* ================================
-   RESPONSIVIDADE
-================================ */
 
 @media (max-width: 768px) {
 
